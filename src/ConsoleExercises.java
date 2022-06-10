@@ -25,6 +25,7 @@ public class ConsoleExercises {
 //        System.out.println(UserInput1);
 //        System.out.println(UserInput2);
 //        System.out.println(UserInput3);
+//        System.out.println("you said; %s %s %s", UserInput1, UserInput2,UserInput3);
 //
 //        scanner.nextLine();
 //        System.out.print("can you type a short a sentence");
@@ -43,8 +44,8 @@ public class ConsoleExercises {
 //
 //        System.out.println(length);
 //        System.out.println(width);
-//        System.out.printf("the ares of the class room is %s square feet,%n", length * width);
-//        System.out.printf("the ares of the class room is %s square feet,%n", (length*2) + (width*2));
+//        System.out.printf("the ares of the classroom is %s square feet,%n", length * width);
+//        System.out.printf("the ares of the classroom is %s square feet,%n", (length*2) + (width*2));
 
         System.out.print("enter the width of the classroom");
         String Width = scanner.next();
@@ -64,7 +65,7 @@ public class ConsoleExercises {
         System.out.printf("the ares of the classroom is %s square feet,%n", (length*2) + (width*2));
         System.out.printf("the Volume of the classroom room is %s feet,%n", length * width * height);
 
-        scanner.useDelimiter("\n");
+//        scanner.useDelimiter("\n");
 
     }
 }
