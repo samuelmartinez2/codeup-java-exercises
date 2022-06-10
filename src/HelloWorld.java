@@ -1,9 +1,12 @@
+import java.util.Scanner;
 public class HelloWorld {
     public static void main(String[] args) {
+
+        String Name = "dog";
         System.out.println("Hello, World!");
         System.out.println("hello, Jeff!");
         System.out.println("hello, bob");
-        System.out.printf("hello, %s!%n", "dennis");    // %n makes it skip a line
+        System.out.printf("hello, %s!%n",Name );    // %n makes it skip a line
 
         byte tinyNum = 127;
         tinyNum++;
@@ -17,6 +20,10 @@ public class HelloWorld {
         System.out.println(myNumber);
         long Num = (int)3.14;
         System.out.println(Num);
+        String Mystring = "pet";
+        System.out.println(Mystring);
+        Mystring= "peta";
+        System.out.println(Mystring);
 
 //        int x = 5;
 //        System.out.println(x++); /// ++ is adding a digit after it logs it
@@ -65,6 +72,13 @@ public class HelloWorld {
 
 
 
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter something: ");
+        String userInput = scanner.nextLine();
+
+        System.out.println("You entered: --> \"" + userInput + "\" <--");
+
     }
 }
 
@@ -72,7 +86,7 @@ public class HelloWorld {
 //        System.out.println();  //sout
 //        System.out.printf(""); //souf
 
-        //declaring variables
+
 
 
 
