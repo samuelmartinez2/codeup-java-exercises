@@ -40,16 +40,16 @@ public class consoleAdventureGame {
     }
 
     public static void Game() {
-        int Sword = 20;
-        int shield = 10;
-        int armor = 10;
-        int horse = 30;
+        int Sword = 40;
+        int shield = 20;
+        int armor = 15;
+        int horse = 40;
         int car = 40;
-        int magic = -10;
+        int magic = -20;
         int robber = -10;
-        int karen = -20;
+        int karen = -30;
         int rain = -10;
-        int Smith = -100;
+        int Smith = -80;
         Scanner scan = new Scanner(System.in);
 //        int items = items();
         boolean decision = true;
@@ -110,7 +110,7 @@ public class consoleAdventureGame {
                             System.out.println("it started raining and your armored gor rusty, its really hard to move, you have lost<< " + rain + " >>health point. you now have " +health+ " health points");
                         }else {
                             health += Smith;
-                            System.out.println("you have ran in to mr Smith, no words where exchanged and you have lost<< " + Smith + " >>health point. you now have " +health+ " health points");
+                            System.out.println("you have been slapped by mr Smith, no words where exchanged and you have lost<< " + Smith + " >>health point. you now have " +health+ " health points");
                         }
                     }
                     System.out.println(health);
@@ -118,7 +118,7 @@ public class consoleAdventureGame {
                     case "cry": {
                         System.out.println("you decided to cry, your enemy will decide your future");
 //                        System.out.println(health);
-                        mystery = -10 + (int) (Math.random() * 10) + 1;
+                        mystery = -20 + (int) (Math.random() * 20) + 1;
                         health += mystery;
                         if (mystery >= 0) {
 
@@ -135,7 +135,7 @@ public class consoleAdventureGame {
                     break;
                     case "run": {
                         System.out.println("you decided to run, lets hope you are fast enough ");
-                        run = -5 + (int) (Math.random() * 5) + 1;
+                        run = -20 + (int) (Math.random() * 30) + 1;
                         health += run;
 //                        System.out.println(run);
                         if (run >= 0) {

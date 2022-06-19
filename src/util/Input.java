@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Input {
 
-    Scanner scanner = new Scanner(System.in);
+    private Scanner scanner = new Scanner(System.in);
 
     public String getString() {
         System.out.println("what is your name");
