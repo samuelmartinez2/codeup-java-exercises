@@ -27,9 +27,9 @@ public class Person {
     }
 
     public static void main(String[] args) {
-//
-//        Person bob = new Person("bob");
-//        System.out.println(bob.sayHello());
+
+        Person bob = new Person("bob");
+        System.out.println(bob.sayHello());
 //        System.out.println(bob.name);
 //        System.out.println(bob.getName());
 //        bob.setName("bob the builder");

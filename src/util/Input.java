@@ -24,7 +24,7 @@ public class Input {
     }
 
     public int getInt() {
-        System.out.println("give me a number");
+//        System.out.println("give me a number");
         return scanner.nextInt();
     }
 
