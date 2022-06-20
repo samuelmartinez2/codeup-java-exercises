@@ -30,25 +30,25 @@ public class Person {
 
         Person bob = new Person("bob");
         System.out.println(bob.sayHello());
-        System.out.println(bob.name);
-        System.out.println(bob.getName());
-        bob.setName("bob the builder");
-        System.out.println(bob.getName());
-        Person carl = new Person("carl",25);
-        System.out.println(carl.sayHello());
+//        System.out.println(bob.name);
+//        System.out.println(bob.getName());
+//        bob.setName("bob the builder");
+//        System.out.println(bob.getName());
+//        Person carl = new Person("carl",25);
+//        System.out.println(carl.sayHello());
 
 //        Person person1 = new Person("John");
 //        Person person2 = new Person("John");
 //        System.out.println(person1.getName().equals(person2.getName()));
 //        System.out.println(person1 == person2);
 //
-        Person person1 = new Person("john");
-        Person person2 = person1;
-        System.out.println(person1.getName());
-        System.out.println(person2.getName());
-        person2.setName(("Jane"));
-        System.out.println(person1.getName());
-        System.out.println(person2.getName());
+//        Person person1 = new Person("john");
+//        Person person2 = person1;
+//        System.out.println(person1.getName());
+//        System.out.println(person2.getName());
+//        person2.setName(("Jane"));
+//        System.out.println(person1.getName());
+//        System.out.println(person2.getName());
 
 
 

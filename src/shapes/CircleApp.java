@@ -14,6 +14,7 @@ public class CircleApp {
         System.out.printf("circle has a circumference of %f?%n", circle.getCircumference());
         System.out.printf("circle area is %f?%n", circle.getArea());
 
+
     }
 //        System.out.println("do you want to do another circle?");
 //        keepmakingcircles= in.yesNo();

@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Input {
 
-    Scanner scanner = new Scanner(System.in);
+    private Scanner scanner = new Scanner(System.in);
 
     public String getString() {
         System.out.println("what is your name");
@@ -24,7 +24,7 @@ public class Input {
     }
 
     public int getInt() {
-        System.out.println("give me a number");
+//        System.out.println("give me a number");
         return scanner.nextInt();
     }
 
