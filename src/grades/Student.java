@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 public class Student {
     private String name;
-    private double ArrayList<integer>();
+    private ArrayList<Integer>grades;
 
 
 
@@ -19,16 +19,20 @@ public class Student {
     public String getName() {
         return name;
     }
-    public double getGrades() {
-        return grades;
-    }
+//    public double getGrades() {
+//        return grades;
+//    }
 
-    public void addGrade( double grade) {
-        this.grades=grade;
+    public void addGrade( Integer grade) {
+        grades.add(grade);
     }
 
     public double getGradeAverage() {
-        return grades/stud.size;
+        double ave = 0;
+        for (Integer grade : grades){
+            ave = ave+grade;
+        }
+        return ave/grades.size();
     }
 
 //    public static void main(String[] args) {

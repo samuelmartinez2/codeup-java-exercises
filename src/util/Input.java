@@ -16,10 +16,10 @@ public class Input {
     public boolean yesNo() {
         System.out.println("would you like to play a game?");
         String answer = scanner.nextLine();
-        if (answer.equals("yes") || answer.equals("yea")) {
+        if (answer.equals("yes") || answer.equals("yea") || answer.equals("y")) {
             return true;
         } else {
-            return false;
+            return yesNo();
         }
     }
 
@@ -84,15 +84,15 @@ public class Input {
 //    }
 //
 
-        public static void main(String[] args) {
-
-            Input answer = new Input();
-            System.out.println(answer.getString());
-
-            System.out.println(answer.yesNo());
-            System.out.println(answer.getInt(1,10));
-
-        }
+//        public static void main(String[] args) {
+//
+//            Input answer = new Input();
+//            System.out.println(answer.getString());
+//
+//            System.out.println(answer.yesNo());
+//            System.out.println(answer.getInt(1,10));
+//
+//        }
 
     }
 
