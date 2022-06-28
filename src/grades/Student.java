@@ -9,12 +9,10 @@ public class Student {
     private ArrayList<Integer>grades;
 
 
-
     public Student ( String name) {
         this.name = name;
         grades = new ArrayList<>();
     }
-
 
     public String getName() {
         return name;
