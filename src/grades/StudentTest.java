@@ -23,7 +23,7 @@ public class StudentTest {
 //
 //
 //        }
-        Student stud = new Student("bob");
+        Student stud = new Student("Bob");
         Student stud2 = new Student("billy");
         System.out.println(stud.getName());
         stud.addGrade(88);
@@ -33,6 +33,6 @@ public class StudentTest {
         System.out.println(stud.getGradeAverage());
         System.out.println(stud2.getName());
         System.out.println(stud2.getGradeAverage());
-        System.out.println();
+        System.out.println(Student.class);
     }
 }
